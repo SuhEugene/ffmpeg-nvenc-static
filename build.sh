@@ -46,6 +46,7 @@ cd ffmpeg-$1 \
     --enable-libvpx \
     --enable-libx264 \
     --enable-libzmq \
+    --disable-htmlpages \
     --extra-cflags=-I/usr/local/cuda/include \
     --extra-ldflags=-L/usr/local/cuda/lib64 \
  && make install \
